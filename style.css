@@ -1,8 +1,39 @@
+header {
+    background-color: blue;
+    margin-bottom: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
 nav {
     display: flex;
+    justify-content: center;    
 }
 
 #menu {
     display: flex;
-    justify-content: space-around;
+    list-style: none;   
+}
+
+a {
+   margin: 0 20px 0 0;
+   color: #fff;
+   text-decoration: none;
+}
+
+@media all and (min-width: 600px) {
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+  
+
+    ul {
+        align-items: center;
+        justify-content: flex-end;
+    }
 }
